@@ -22,3 +22,6 @@ def cli(ctx, debug):
 cli.add_command(items)
 cli.add_command(notes)
 cli.add_command(labels)
+
+if __name__ == '__main__':
+    cli()
